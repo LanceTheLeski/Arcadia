@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Arcadia</string>
+
+    <string name="title_activity_super_tic_tac_toe">SuperTicTacToeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="username">Username:</string>
+    <string name="score">score</string>
+</resources>

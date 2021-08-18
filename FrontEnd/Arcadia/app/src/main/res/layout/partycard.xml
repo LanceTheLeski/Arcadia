@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:clickable="true"
+    android:focusable="auto"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:cardBackgroundColor="#E91E63"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:cardMaxElevation="6dp"
+    app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/GroupName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GROUPNAME"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/GroupMembers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GROUPMEMBERS"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/GroupAmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="GROUPAMOUNT" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
